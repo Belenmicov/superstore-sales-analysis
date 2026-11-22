@@ -79,9 +79,7 @@ No **region** loses money, but **Central underperforms:** 7 of its sub-categorie
 - Don’t drop Tables. It makes money when it isn’t heavily discounted.
 - Don’t target segments. They show no meaningful difference.
 
-  ---
-
-  ---
+---
 
 ## Dashboard
 
@@ -89,3 +87,39 @@ Built in Excel with the data retrieved from the Pivot Tables.
 
 ![Cap discounts at 20%](dashboard_sales.png)
 
+---
+  
+Hay que poner measures de algo? como especifico lo del Power Query
+
+---
+
+## Limitations
+
+- **Correlation, not causation.** High discounts and losses go together, but the data can’t prove one causes the other. That’s why the recommendation starts with a pilot.
+- **No information on why discounts were given.** Some may have been deliberate, such as clearing old stock or matching a competitor. The data doesn’t say.
+- **No customer behaviour data.** It’s unknown how many customers would still buy at a lower discount. The 47% scenario assumes those sales disappear and nothing else changes, for example that customers don’t stop buying other products too.
+- **Profit came with the dataset.** It’s not clear which costs it includes (product only, or also shipping and storage). Cost was derived as Sales minus Profit.
+- **No list prices or product costs,** so price changes can’t be tested, only discounts.
+- **No sales targets, channel or inventory data.** The analysis can’t assess target performance, sales by channel or stock costs.
+- **Unreliable product IDs.** 32 Product IDs were shared by two different products, so products were analysed by name.
+- **Time was not analysed.** The data covers 2014–2017; the patterns may have changed since then.
+- **Sample dataset.** Superstore is a public sample dataset, so it may not reflect a real retailer.
+
+---
+
+## Dataset, Tools & Repository
+
+- **Source:** [Superstore Sales Analysis](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) (Kaggle)
+- **Volume:** 9,993 orders · 21 columns (order, customer, product, sales)
+- **Tools:** Excel
+
+```
+
+superstore-sales-analysis/
+│
+├── README.md
+├── Supersample.xlsx
+└── dashboard_sales.png
+
+```
+*This project uses a synthetic dataset for portfolio purposes. There was no real client: the analysis was framed around a Sales Director to give it a concrete business decision.*
