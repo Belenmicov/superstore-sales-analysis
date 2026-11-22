@@ -87,5 +87,5 @@ No **region** loses money, but **Central underperforms:** 7 of its sub-categorie
 
 Built in Excel with the data retrieved from the Pivot Tables.
 
-!(dashboard_sales.png)
+![Cap discounts at 20%](dashboard_sales.png)
 
