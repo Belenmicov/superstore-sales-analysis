@@ -79,7 +79,7 @@ No **region** loses money, but **Central underperforms:** 7 of its sub-categorie
 ## Dashboard
 Built in Excel with pivot charts and slicers (Region, Category) that update the KPI cards and charts.
 
-![Cap discounts at 20%](dashboard_sales.png)
+![Cap discounts at 20%](superstore_sales_analysis.png)
 
 ---
   
@@ -126,8 +126,9 @@ Loses money?     (Power Query)            = Loss if Profit < 0 · Break-even if 
 superstore-sales-analysis/
 │
 ├── README.md
-├── Supersample.xlsx
-└── dashboard_sales.png
+├── superstore_dataset.csv
+├── superstore_sales_analysis.xlsx
+└── superstore_sales_analysis.png
 
 ```
 *This project uses a synthetic dataset for portfolio purposes. There was no real client: the analysis was framed around a Sales Director to give it a concrete business decision.*
