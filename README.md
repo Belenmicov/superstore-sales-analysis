@@ -85,9 +85,7 @@ No **region** loses money, but **Central underperforms:** 7 of its sub-categorie
 
 ## Dashboard
 
-Built in Excel from the data retrieved from the Pivot Tables.
+Built in Excel with the data retrieved from the Pivot Tables.
 
-**Where to Act**: size of the problem, the riskiest segment, where revenue is lost and when to act.
-
-![Where to Act](dashboard_sales.png)
+!(dashboard_sales.png)
 
