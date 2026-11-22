@@ -89,8 +89,5 @@ Built in Excel from the data retrieved from the Pivot Tables.
 
 **Where to Act**: size of the problem, the riskiest segment, where revenue is lost and when to act.
 
-![Where to Act](dashboard_page1.png)
+![Where to Act](dashboard_sales.png)
 
-**Why Customers Leave**: churn rate by payment method, protection services and contract.
-
-![Why Customers Leave](dashboard_page2.png)
